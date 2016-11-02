@@ -1,0 +1,116 @@
+$green:  #4CAA90;
+$lightgreen: #b7ddd2;
+$white: #fff;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+	background-color: $green;
+	width: 100%; 
+	text-transform: uppercase;
+	position: fixed;
+}
+
+.top-nav {
+	margin: 0 auto;
+	width: 65%;
+	height: 52px;
+	display: flex;	
+	justify-content: space-between;
+	&>ul {
+		color: $lightgreen;
+		display: flex;
+		list-style: none;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	li {
+		// border-right: 1px solid $lightgreen;
+		padding: 14px 10px;
+	}
+	li:hover {
+		background-color: $white;
+		cursor: pointer;
+		transition-duration: 0.4s;
+	}
+	.page-nav {
+		width: 60%;
+		font-size: 13px;
+	}
+	.social-nav {
+		width: 15%;
+		font-size: 17px;
+	}
+}
+
+.btm-nav-conatiner {
+	background-color: $white;
+	width: 100%;
+	height: 85px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btm-nav {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	margin: 0 auto;
+	width: 65%;
+	position: fixed;
+	span {
+		color: $green;
+	}
+}
+
+.donate-btn {
+	border: 2px solid $green;
+	color: $green;
+	width: 100px;
+	height: 36px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+	width: 30%;
+}
+
+.email-us, .call-us {
+	width: 21%;
+	div>i {
+		font-size: 30px;
+	}
+	&>div {
+		width: 20%;
+		margin: 0;
+    float: left;
+	}
+	h6,p {
+		display: inline-block;
+    width: 80%;
+    margin: 0;
+	}
+}
+
+.email-us {
+	margin-right: 28px;
+}
+
+.land-sec {
+	background-image: url('../images/lndpc.jpeg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
