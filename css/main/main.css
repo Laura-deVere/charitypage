@@ -5,6 +5,21 @@ body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #ddd7d4; }
 
+.large-btn {
+  width: 110px;
+  padding: 10px;
+  border: 1px solid #4CAA90;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.transp-bkgrnd {
+  background-color: transparent;
+  color: #4CAA90; }
+
+.grn-bkgrnd {
+  background-color: #4CAA90;
+  color: #fff; }
+
 nav {
   background-color: #4CAA90;
   width: 100%;
@@ -209,25 +224,71 @@ nav {
     padding: 4px;
     text-align: center; }
 
+.causes-container {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between; }
+
 .causes {
-  width: 25%;
-  height: 150px;
+  width: 230px;
+  height: 200px;
   background-color: #ddd7d4;
-  margin: 30px 30px 30px 0; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .causes img {
+    max-height: 180px;
+    max-width: 230px; }
+  .causes p {
+    text-align: center;
+    color: #575352; }
+  .causes h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0; }
 
-.large-btn {
-  width: 110px;
-  padding: 10px;
-  border: 1px solid #4CAA90;
-  border-radius: 5px;
-  cursor: pointer; }
+.causes-footer {
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 10px; }
 
-.transp-bkgrnd {
-  background-color: transparent;
-  color: #4CAA90; }
+.prj-section {
+  background: linear-gradient(rgba(87, 83, 82, 0.9), rgba(87, 83, 82, 0.9)), url("../images/nepal.png");
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .prj-section h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 40%;
+    margin: 15px; }
+  .prj-section p {
+    color: #ddd7d4;
+    width: 40%;
+    text-align: center;
+    margin: 0 0 30px 0; }
 
-.grn-bkgrnd {
-  background-color: #4CAA90;
-  color: #fff; }
+.prj-section > button {
+  font-size: 15px;
+  background-color: #ddd7d4;
+  border: 1px solid #ddd7d4;
+  color: #fff;
+  padding: 9px;
+  border-radius: 3px; }
+
+.prj-section-btns button {
+  width: 200px !important;
+  font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */
