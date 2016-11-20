@@ -291,4 +291,82 @@ nav {
   width: 200px !important;
   font-size: 15px; }
 
+.event-section {
+  width: 75%;
+  background-color: #fff;
+  margin: 0 auto; }
+
+.event-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.event-list-container {
+  list-style: none;
+  width: 105%;
+  display: flex;
+  padding: 0; }
+
+.large-event {
+  width: 45%;
+  height: 400px;
+  margin-right: 46px; }
+  .large-event li {
+    height: 100%; }
+
+.large-event-img {
+  background-image: url("../images/colorrun.jpeg");
+  background-size: cover;
+  min-height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .large-event-img h2 {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 14px; }
+  .large-event-img p {
+    background-color: #575352;
+    max-width: 100%;
+    color: #fff;
+    margin: 0;
+    font-size: 10px;
+    height: 30%;
+    padding: 10px;
+    text-align: center; }
+
+.large-event-info {
+  height: 25%;
+  font-size: 0.65em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.small-events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 45%;
+  height: 400px; }
+  .small-events li {
+    width: 43%;
+    height: 180px;
+    border: 1px solid black;
+    background-size: 100% 70%;
+    background-repeat: no-repeat; }
+  .small-events li:first-child {
+    background-image: url("../images/SF_12_THUMB.JPG"); }
+  .small-events li:nth-child(2) {
+    background-image: url("../images/HEALTH_NUTRITION.JPG"); }
+  .small-events li:nth-child(3) {
+    background-image: url("../images/SF_3.JPG"); }
+  .small-events li:nth-child(4) {
+    background-image: url("../images/SPON-GIRL-IMAGE.png"); }
+
 /*# sourceMappingURL=main.css.map */
