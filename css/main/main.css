@@ -259,7 +259,7 @@ nav {
 .prj-section {
   background: linear-gradient(rgba(87, 83, 82, 0.9), rgba(87, 83, 82, 0.9)), url("../images/nepal.png");
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -295,7 +295,9 @@ nav {
   width: 75%;
   background-color: #fff;
   margin: 0 auto;
-  padding: 30px 0 30px 0; }
+  padding: 30px 0 0 0; }
+  .event-section span {
+    color: #4CAA90; }
 
 .event-container {
   width: 80%;
@@ -304,7 +306,7 @@ nav {
   flex-direction: column; }
 
 .event-container > h2 {
-  font-size: 1.4em;
+  font-size: 1em;
   text-align: center; }
 
 .event-container > h3 {
@@ -394,5 +396,67 @@ nav {
     text-align: center; }
   .sm-event-info p {
     width: 100%; }
+
+.testimonials {
+  background-color: #4CAA90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  height: 450px; }
+  .testimonials h3 {
+    background-color: #575352;
+    font-size: 0.8em;
+    width: 143px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 3px;
+    color: #fff; }
+  .testimonials h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1em; }
+  .testimonials ul {
+    width: 85%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    .testimonials ul li {
+      width: 30%;
+      height: 200px; }
+
+.review {
+  background-color: #fff;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 6px; }
+  .review i {
+    color: #4CAA90;
+    font-size: 24px; }
+  .review p {
+    color: #ddd7d4;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.review:after {
+  content: '';
+  position: absolute;
+  margin-left: -13px;
+  width: 0;
+  height: 0;
+  border-top: solid 15px #fff;
+  border-left: solid 15px transparent;
+  border-right: solid 15px transparent; }
+
+.rvr-details {
+  font-size: 0.6em;
+  text-align: center;
+  padding: 10px; }
+
+.rvr-name {
+  color: #fff; }
+
+.rvr-company {
+  color: #575352; }
 
 /*# sourceMappingURL=main.css.map */
