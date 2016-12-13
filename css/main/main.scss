@@ -366,6 +366,7 @@ nav {
 	width:75%;
 	background-color: $white;
 	margin: 0 auto;
+	padding: 30px 0 30px 0;
 }
 
 .event-container {
@@ -373,6 +374,21 @@ nav {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
+}
+
+.event-container > h2 {
+	font-size: 1.4em;
+  text-align: center;
+}
+
+.event-container > h3 {
+	font-size: 0.8em;
+  background: $lightgray;
+  width: 143px;
+  text-align: center;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0 auto;
 }
 
 .event-list-container {
@@ -437,9 +453,10 @@ nav {
 	li {
 		width: 43%;
 		height: 180px;
-		border: 1px solid black;
 		background-size: 100% 70%;
 		background-repeat: no-repeat;
+		display: flex;
+		align-items: flex-end;
 	}
 	li:first-child {
 		background-image: url('../images/SF_12_THUMB.JPG');
@@ -455,6 +472,19 @@ nav {
 	}
 }
 
+.sm-event-info {
+	font-size: 0.4em;
+	h1 {
+		max-width: 100%;
+    background-color: #ddd7d4;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+	}
+	p {
+		width: 100%;
+	}
+}
 
 
 
