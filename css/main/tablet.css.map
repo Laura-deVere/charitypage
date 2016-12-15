@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2DAA4D;EAC3D;;;;;;QAMO;IACN,KAAK,EAAE,IAAI;;EAEZ,kBAAmB;IAChB,SAAS,EAAE,GAAG;IACd,KAAK,EAAE,GAAG;;EAEZ,iBAAkB;IACjB,KAAK,EAAE,GAAG;;EAEX,UAAW;IACV,MAAM,EAAE,IAAI;;EAEb,gBAAiB;IAChB,KAAK,EAAE,KAAK",
+"sources": ["tablet.scss"],
+"names": [],
+"file": "tablet.css"
+}

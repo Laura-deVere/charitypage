@@ -1,0 +1,67 @@
+@media screen and (min-width: 275px) and (max-width: 414px){
+	.land-sec-info, 
+	.cause-section, 
+	.event-section, 
+	.testimonials, 
+	.volunteer, 
+	.newsletter, 
+	footer {
+		width: 100%;
+	} 
+	nav {
+		display: none;
+	}
+	.land-sec {
+		height: 100%;
+	}
+	.land-sec-info > h3, .land-sec-info > p, .land-sec-info > button {
+    margin-left: 53px;
+	}
+	.featured-cause {
+		width: 83%;
+		display: block;
+	}
+	.land-sec-info h3 {
+		width: 124px;
+	}
+	.land-sec-info p {
+		width: 72%;
+	}
+	.land-footer {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.land-footer div {
+		height: 94px;
+		max-width: 100%;
+	}
+	.land-footer div p {
+    font-size: 8px;
+    width: 74%;
+  }
+	.cause-section {
+		padding-top: 17px;
+		height: 100%;
+	}
+	.cause-section h2 {
+		width: 100px;
+	}
+	.cause-section > p {
+		font-size: 1em;
+	}
+	.featured-cause {
+		height: 100%;
+	}
+	.featured-cause img {
+		margin: 0;
+		width: 100%;
+	}
+	.cause-section .featured-info {
+		align-items: center;
+	}
+	.causes-container {
+		flex-direction: column;
+		height: 100%;
+	}
+}

@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
-  background-color: #ddd7d4; }
+  background-color: #edf1f1; }
 
 .large-btn {
   width: 110px;
@@ -64,8 +64,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
-  position: fixed; }
+  width: 90%; }
   .btm-nav span {
     color: #4CAA90; }
 
@@ -121,7 +120,7 @@ nav {
     width: 117px;
     padding: 6px;
     background-color: #fff;
-    color: #575352; }
+    color: #474848; }
   .land-sec-info button {
     background-color: #4CAA90;
     border: 1px solid #4CAA90;
@@ -134,7 +133,7 @@ nav {
     text-transform: uppercase;
     font-size: 1em; }
   .land-sec-info span {
-    color: #ddd7d4;
+    color: #edf1f1;
     width: 30%;
     font-size: 0.5em; }
 
@@ -144,12 +143,12 @@ nav {
 .land-footer {
   width: 100%;
   height: 125px;
-  background-color: #575352;
+  background-color: #474848;
   display: inline-flex;
   justify-content: center;
   align-items: center; }
   .land-footer .brdr-rght {
-    border-right: 0.5px solid #ddd7d4;
+    border-right: 0.5px solid #edf1f1;
     padding-right: 42px; }
   .land-footer div {
     max-width: 28%;
@@ -160,7 +159,7 @@ nav {
     flex-wrap: wrap; }
     .land-footer div div:first-child {
       font-size: 30px;
-      color: #ddd7d4;
+      color: #edf1f1;
       height: 100%;
       width: 30px;
       width: 50px;
@@ -172,7 +171,7 @@ nav {
       margin: 25px 0 0 0px; }
     .land-footer div p {
       font-size: 10px;
-      color: #ddd7d4;
+      color: #edf1f1;
       width: 85%; }
 
 .cause-container {
@@ -189,7 +188,7 @@ nav {
   justify-content: center;
   padding-top: 60px; }
   .cause-section h2 {
-    background-color: #ddd7d4;
+    background-color: #edf1f1;
     border: 1px;
     border-radius: 5px;
     color: #fff;
@@ -206,18 +205,18 @@ nav {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
-  color: #575352; }
+  color: #474848; }
 
 .featured-cause {
   width: 80%;
   height: 300px;
   display: flex;
   flex-wrap: no-wrap;
-  background-color: #ddd7d4; }
+  background-color: #edf1f1; }
   .featured-cause img {
     margin-right: 20px; }
   .featured-cause h4 {
-    background-color: #575352;
+    background-color: #474848;
     color: #fff;
     font-size: 10px;
     width: 113px;
@@ -233,7 +232,7 @@ nav {
 .causes {
   width: 230px;
   height: 200px;
-  background-color: #ddd7d4;
+  background-color: #edf1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,7 +242,7 @@ nav {
     max-width: 230px; }
   .causes p {
     text-align: center;
-    color: #575352; }
+    color: #474848; }
   .causes h5 {
     text-align: center;
     font-weight: bold;
@@ -274,15 +273,15 @@ nav {
     width: 40%;
     margin: 15px; }
   .prj-section p {
-    color: #ddd7d4;
+    color: #edf1f1;
     width: 40%;
     text-align: center;
     margin: 0 0 30px 0; }
 
 .prj-section > button {
   font-size: 15px;
-  background-color: #ddd7d4;
-  border: 1px solid #ddd7d4;
+  background-color: #474848;
+  border: 1px solid #474848;
   color: #fff;
   padding: 9px;
   border-radius: 3px; }
@@ -311,7 +310,7 @@ nav {
 
 .event-container > h3 {
   font-size: 0.8em;
-  background: #ddd7d4;
+  background: #edf1f1;
   width: 143px;
   text-align: center;
   padding: 6px;
@@ -347,7 +346,7 @@ nav {
     margin-right: 10px;
     font-size: 14px; }
   .large-event-img p {
-    background-color: #575352;
+    background-color: #474848;
     max-width: 100%;
     color: #fff;
     margin: 0;
@@ -402,10 +401,10 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
+  padding: 68px 0 0 0;
   height: 450px; }
   .testimonials h3 {
-    background-color: #575352;
+    background-color: #474848;
     font-size: 0.8em;
     width: 143px;
     text-align: center;
@@ -434,7 +433,7 @@ nav {
     color: #4CAA90;
     font-size: 24px; }
   .review p {
-    color: #ddd7d4;
+    color: #474848;
     padding-left: 10px;
     padding-right: 10px; }
 
@@ -457,6 +456,111 @@ nav {
   color: #fff; }
 
 .rvr-company {
-  color: #575352; }
+  color: #474848; }
+
+.volunteer {
+  width: 75%;
+  height: 75vh;
+  background: url("../images/volunteer.png");
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.volunteer-info {
+  width: 300px;
+  height: 230px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 10px; }
+  .volunteer-info p {
+    text-align: center;
+    padding: 0 10px; }
+  .volunteer-info h2 {
+    background-color: #474848;
+    font-size: 0.9em;
+    border: 1px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 9px;
+    text-align: center; }
+  .volunteer-info h1 {
+    margin: 0; }
+  .volunteer-info button {
+    background-color: #4CAA90;
+    border: #4CAA90;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 0.9em; }
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 114px;
+  background-color: #a5a8a8;
+  margin: 0 auto; }
+
+.news-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7em;
+  margin: 0 auto;
+  color: #474848; }
+  .news-form div {
+    width: 34%;
+    margin-right: 20px; }
+    .news-form div p {
+      margin-top: 0; }
+    .news-form div h3 {
+      margin-bottom: 4px; }
+  .news-form input {
+    height: 15px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    border: #fff;
+    margin-right: 10px; }
+  .news-form button {
+    width: 66px;
+    height: 35px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: #474848;
+    color: #fff !important;
+    border: #474848;
+    border-radius: 2px; }
+
+footer {
+  width: 75%;
+  min-height: 356px;
+  margin: 0 auto;
+  background-color: #474848;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em; }
+  footer div {
+    width: 20%;
+    height: 200px; }
+  footer h3 {
+    color: #fff; }
+  footer p {
+    color: #ddd7d4; }
+  footer button {
+    color: #fff;
+    border: 1px solid #ddd7d4;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 10px 30px; }
 
 /*# sourceMappingURL=main.css.map */

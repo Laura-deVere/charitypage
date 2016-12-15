@@ -1,8 +1,11 @@
 $green:  #4CAA90;
 $lightgreen: #b7ddd2;
 $white: #fff;
-$darkgray: #575352;
-$lightgray: #ddd7d4;
+// $darkgray: #A49F9F;
+$darkgray: #474848;
+$medgray: #a5a8a8;
+$gray: #ddd7d4;
+$lightgray: #edf1f1;
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 body {
@@ -86,7 +89,7 @@ nav {
   align-items: center;
 	margin: 0 auto;
 	width: 90%;
-	position: fixed;
+	// position: fixed;
 	span {
 		color: $green;
 	}
@@ -347,8 +350,8 @@ nav {
 
 .prj-section > button {
 	font-size: 15px;
-	background-color: $lightgray;
-	border: 1px solid $lightgray;
+	background-color: $darkgray;
+	border: 1px solid $darkgray;
 	color: $white;
 	padding: 9px;
   border-radius: 3px;
@@ -495,7 +498,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 30px 0;
+	padding: 68px 0 0 0;
 	height: 450px;
 	h3 {;
     background-color: $darkgray;
@@ -533,7 +536,7 @@ nav {
 		font-size: 24px;
 	}
 	p {
-		color: $lightgray;
+		color: $darkgray;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -564,9 +567,128 @@ nav {
 	color: $darkgray;
 }
 
+// VOLUNTEER SECTION
+.volunteer {
+	width: 75%;
+	height: 75vh;
+	background: url('../images/volunteer.png');
+	background-size: cover;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.volunteer-info {
+	width: 300px;
+	height: 230px;
+	background-color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8em;
+	padding: 10px;
+	p {
+		text-align: center;
+		padding: 0 10px;
+	}
+	h2 {
+		background-color: $darkgray;
+		font-size: 0.9em;
+		border: 1px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 9px;
+    text-align: center;
+	}
+	h1 {
+		margin: 0;
+	}
+	button {
+		background-color: $green;
+		border: $green;
+		border-radius: 3px;
+		color: $white;
+		padding: 10px 15px;
+		font-size: 0.9em;
+	}
+}
 
+//NEWSLETTER SIGN_UP
+.newsletter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: 114px;
+	background-color: $medgray;
+	margin: 0 auto;
+}
 
+.news-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.7em;
+	margin: 0 auto;
+	color: $darkgray;
+	div {
+		width: 34%;
+    margin-right: 20px;
+    p {
+    	margin-top: 0;
+    }
+    h3 {
+    	margin-bottom: 4px;
+    }
+	}
+	input {
+		height: 15px;
+		width: 200px;
+		padding: 10px;
+		border-radius: 2px;
+		border: $white;
+		margin-right: 10px; 
+	}
+	button {
+		width: 66px;	
+    height: 35px;
+    font-size: 1.1em;
+		padding: 10px;
+		background-color: $darkgray;
+		color: $white !important;
+		border: $darkgray;
+		border-radius: 2px;
+	}
+}
 
-
+footer {
+	width: 75%;
+	min-height: 356px;
+	margin: 0 auto;
+	background-color: $darkgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.7em;
+	div {
+		width: 20%;
+		height: 200px;
+	}
+	h3 {
+		color: $white;
+	}
+	p {
+		color: $gray;
+	}
+	button {
+		color: $white;
+		border: 1px solid $gray;
+		border-radius: 2px;
+		background-color: transparent;
+		padding: 10px 30px;
+	}
+}
 // 
