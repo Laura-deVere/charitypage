@@ -22,7 +22,7 @@
     height: 100%; }
 
   .land-sec-info > h3, .land-sec-info > p, .land-sec-info > button {
-    margin-left: 53px; }
+    margin-left: 40px; }
 
   .featured-cause {
     width: 83%;
@@ -104,6 +104,50 @@
   .prj-section-btns button {
     width: 132px !important;
     margin-bottom: 30px;
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+
+  .event-list-container {
+    flex-direction: column; }
+
+  .large-event {
+    width: 100%;
+    border-bottom: 0.5px solid #ddd7d4;
+    margin-bottom: 17px; }
+    .large-event h2 {
+      font-size: 0.7em; }
+
+  .large-event-info h1 {
+    font-size: 1.1em;
+    margin-bottom: 0; }
+
+  .small-events {
+    width: 100%;
+    height: 100%; }
+    .small-events h1 {
+      font-size: 1em; }
+
+  .small-events li {
+    width: 48%;
+    height: 161px; }
+
+  .testimonials {
+    padding-top: 30px;
+    height: 100%; }
+    .testimonials ul {
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      padding-left: 0; }
+    .testimonials ul li {
+      width: 72%;
+      height: 100%;
+      margin-bottom: 0px; }
+
+  .review {
+    font-size: 0.5em; }
+
+  .volunteer-info {
+    width: 261px;
+    height: 208px; } }
 
 /*# sourceMappingURL=mobile.css.map */
