@@ -85,8 +85,7 @@
     flex-direction: column;
     height: 100%; }
 
-  .prj-section,
-  .event-section {
+  .prj-section {
     height: 100%; }
 
   .prj-section h2 {
