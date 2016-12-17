@@ -108,11 +108,11 @@
 
   .event-section {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 100%; }
 
   .event-container {
-    height: 100%;
-    display: block; }
+    height: 100%; }
 
   .event-list-container {
     flex-direction: column; }
