@@ -110,10 +110,11 @@ $gray: #ddd7d4;
   .event-section {
   	display: flex;
     flex-direction: column;
+    height: 100%;
   }
   .event-container {
   	height: 100%;
-  	display: block;
+  	// display: block;
   }
   .event-list-container {
   	flex-direction: column;
