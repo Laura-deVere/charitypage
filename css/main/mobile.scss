@@ -86,9 +86,11 @@ $gray: #ddd7d4;
 		flex-direction: column;
 		height: 100%;
 	}
-	.prj-section,
-	.event-section {
+	.prj-section {
 		height: 100%;
+	}
+	.event-section {
+		height: 150vh;
 	}
 	.prj-section h2 {
 		font-size: 0.9em;
