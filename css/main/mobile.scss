@@ -1,4 +1,7 @@
 $gray: #ddd7d4;
+$green:  #4CAA90;
+$lightgreen: #b7ddd2;
+$white: #fff;
 @media screen and (min-width: 275px) and (max-width: 414px){
 	body {
 		width: 100%;
@@ -16,6 +19,24 @@ $gray: #ddd7d4;
 	footer {
 		width: 100%;
 	} 
+	.mobile-logo {
+		display: block;
+		position: relative;
+		div {
+			position: absolute;
+	    top: 14px;
+	    left: 218px;
+	    background-color: #fff;
+	    width: 66px;
+	    height: 23px;
+	    font-weight: bold;
+	    padding: 7px;
+	    border-radius: 4px;
+		}
+		span {
+			color: $green;
+		}
+	}
 	nav {
 		display: none;
 	}

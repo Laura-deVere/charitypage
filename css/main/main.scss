@@ -34,6 +34,9 @@ body {
 	color: $white;
 }
 
+.mobile-logo {
+	display: none;
+}
 // NAV
 nav {
 	background-color: $green;
@@ -103,6 +106,7 @@ nav {
 	display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo {
@@ -664,6 +668,7 @@ nav {
 		color: $white !important;
 		border: $darkgray;
 		border-radius: 2px;
+		cursor: pointer;
 	}
 }
 
@@ -692,6 +697,7 @@ footer {
 		border-radius: 2px;
 		background-color: transparent;
 		padding: 10px 30px;
+		cursor: pointer;
 	}
 }
 // 

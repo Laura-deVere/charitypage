@@ -15,6 +15,22 @@
   footer {
     width: 100%; }
 
+  .mobile-logo {
+    display: block;
+    position: relative; }
+    .mobile-logo div {
+      position: absolute;
+      top: 14px;
+      left: 218px;
+      background-color: #fff;
+      width: 66px;
+      height: 23px;
+      font-weight: bold;
+      padding: 7px;
+      border-radius: 4px; }
+    .mobile-logo span {
+      color: #4CAA90; }
+
   nav {
     display: none; }
 

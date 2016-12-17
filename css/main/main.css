@@ -20,6 +20,9 @@ body {
   background-color: #4CAA90;
   color: #fff; }
 
+.mobile-logo {
+  display: none; }
+
 nav {
   background-color: #4CAA90;
   width: 100%;
@@ -75,7 +78,8 @@ nav {
   height: 36px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  cursor: pointer; }
 
 .logo {
   width: 30%; }
@@ -541,7 +545,8 @@ nav {
     background-color: #474848;
     color: #fff !important;
     border: #474848;
-    border-radius: 2px; }
+    border-radius: 2px;
+    cursor: pointer; }
 
 footer {
   width: 75%;
@@ -564,6 +569,7 @@ footer {
     border: 1px solid #ddd7d4;
     border-radius: 2px;
     background-color: transparent;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
