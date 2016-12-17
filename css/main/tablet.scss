@@ -23,8 +23,17 @@
   .cause-section h2 {
   	width: 11%;
   } 
+  .proj-section {
+    h2 {
+      width: 48%;
+      font-size: 1.3em;
+    }
+    p {
+      width: 65%;
+    }
+  }
   .volunteer {
-  	height: 31vh;
+  	height: 100%;
   }
   .news-form input {
   	width: 155px;
