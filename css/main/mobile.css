@@ -32,7 +32,8 @@
     width: 124px; }
 
   .land-sec-info p {
-    width: 72%; }
+    width: 72%;
+    font-size: 0.9em; }
 
   .land-footer {
     display: flex;
@@ -106,6 +107,9 @@
     margin-bottom: 30px;
     font-size: 0.7em; }
 
+  .event-container {
+    height: 100%; }
+
   .event-list-container {
     flex-direction: column; }
 
@@ -148,6 +152,29 @@
 
   .volunteer-info {
     width: 261px;
-    height: 208px; } }
+    height: 208px; }
+
+  .newsletter {
+    height: 100%; }
+
+  .news-form {
+    flex-direction: column; }
+    .news-form div {
+      width: 71%;
+      margin-right: 0px; }
+    .news-form form {
+      display: flex;
+      flex-direction: column; }
+    .news-form form input, .news-form button {
+      margin-bottom: 10px; }
+
+  footer {
+    flex-wrap: wrap;
+    font-size: 0.6em; }
+    footer div {
+      width: 45%;
+      height: 169px; }
+    footer button {
+      padding: 6px 17px; } }
 
 /*# sourceMappingURL=mobile.css.map */
