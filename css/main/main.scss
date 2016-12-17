@@ -494,6 +494,9 @@ nav {
 
 // TESTIMONIALS	
 .testimonials {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
 	background-color: $green;
 	display: flex;
 	flex-direction: column;
