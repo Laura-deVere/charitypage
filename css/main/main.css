@@ -3,28 +3,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
-  background-color: #edf1f1; }
+  background-color: #f1f4f8; }
 
 .large-btn {
   width: 110px;
   padding: 10px;
-  border: 1px solid #4CAA90;
+  border: 1px solid #29af8a;
   border-radius: 5px;
   cursor: pointer; }
 
 .transp-bkgrnd {
   background-color: transparent;
-  color: #4CAA90; }
+  color: #29af8a; }
 
 .grn-bkgrnd {
-  background-color: #4CAA90;
+  background-color: #29af8a;
   color: #fff; }
 
 .mobile-logo {
   display: none; }
 
 nav {
-  background-color: #4CAA90;
+  background-color: #29af8a;
   width: 100%;
   text-transform: uppercase;
   position: fixed; }
@@ -69,11 +69,11 @@ nav {
   margin: 0 auto;
   width: 90%; }
   .btm-nav span {
-    color: #4CAA90; }
+    color: #29af8a; }
 
 .donate-btn {
-  border: 2px solid #4CAA90;
-  color: #4CAA90;
+  border: 2px solid #29af8a;
+  color: #29af8a;
   width: 100px;
   height: 36px;
   display: flex;
@@ -103,16 +103,19 @@ nav {
 .land-sec {
   background-image: url("../images/school.jpeg");
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .land-sec-info {
   width: 75%;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
-  padding-top: 133px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -124,20 +127,19 @@ nav {
     width: 117px;
     padding: 6px;
     background-color: #fff;
-    color: #474848; }
+    color: #435061; }
   .land-sec-info button {
-    background-color: #4CAA90;
-    border: 1px solid #4CAA90;
+    background-color: #29af8a;
+    border: 1px solid #29af8a;
     width: 110px;
-    padding: 10px;
-    margin-bottom: 100px; }
+    padding: 10px; }
   .land-sec-info p {
     width: 60%;
     color: #fff;
     text-transform: uppercase;
     font-size: 1em; }
   .land-sec-info span {
-    color: #edf1f1;
+    color: #f1f4f8;
     width: 30%;
     font-size: 0.5em; }
 
@@ -145,14 +147,14 @@ nav {
   margin-left: 100px; }
 
 .land-footer {
-  width: 100%;
+  width: 75%;
   height: 125px;
-  background-color: #474848;
+  background-color: #435061;
   display: inline-flex;
   justify-content: center;
   align-items: center; }
   .land-footer .brdr-rght {
-    border-right: 0.5px solid #edf1f1;
+    border-right: 0.5px solid #f1f4f8;
     padding-right: 42px; }
   .land-footer div {
     max-width: 28%;
@@ -163,7 +165,7 @@ nav {
     flex-wrap: wrap; }
     .land-footer div div:first-child {
       font-size: 30px;
-      color: #edf1f1;
+      color: #f1f4f8;
       height: 100%;
       width: 30px;
       width: 50px;
@@ -175,7 +177,7 @@ nav {
       margin: 25px 0 0 0px; }
     .land-footer div p {
       font-size: 10px;
-      color: #edf1f1;
+      color: #f1f4f8;
       width: 85%; }
 
 .cause-container {
@@ -184,6 +186,7 @@ nav {
 
 .cause-section {
   width: 75%;
+  height: 100%;
   margin: 0 auto;
   background-color: #fff;
   font-size: 0.75em;
@@ -192,7 +195,7 @@ nav {
   justify-content: center;
   padding-top: 60px; }
   .cause-section h2 {
-    background-color: #edf1f1;
+    background-color: #f1f4f8;
     border: 1px;
     border-radius: 5px;
     color: #fff;
@@ -209,18 +212,18 @@ nav {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
-  color: #474848; }
+  color: #435061; }
 
 .featured-cause {
   width: 80%;
   height: 300px;
   display: flex;
   flex-wrap: no-wrap;
-  background-color: #edf1f1; }
+  background-color: #f1f4f8; }
   .featured-cause img {
     margin-right: 20px; }
   .featured-cause h4 {
-    background-color: #474848;
+    background-color: #435061;
     color: #fff;
     font-size: 10px;
     width: 113px;
@@ -236,7 +239,7 @@ nav {
 .causes {
   width: 230px;
   height: 200px;
-  background-color: #edf1f1;
+  background-color: #f1f4f8;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,7 +249,7 @@ nav {
     max-width: 230px; }
   .causes p {
     text-align: center;
-    color: #474848; }
+    color: #435061; }
   .causes h5 {
     text-align: center;
     font-weight: bold;
@@ -260,12 +263,12 @@ nav {
   margin: 10px; }
 
 .prj-section {
-  background: linear-gradient(rgba(87, 83, 82, 0.9), rgba(87, 83, 82, 0.9)), url("../images/nepal.png");
+  background: linear-gradient(rgba(67, 80, 97, 0.8), rgba(67, 80, 97, 0.8)), url("../images/nepal.png");
   background-size: cover;
-  height: 80vh;
+  height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,15 +280,15 @@ nav {
     width: 40%;
     margin: 15px; }
   .prj-section p {
-    color: #edf1f1;
+    color: #f1f4f8;
     width: 40%;
     text-align: center;
     margin: 0 0 30px 0; }
 
 .prj-section > button {
   font-size: 15px;
-  background-color: #474848;
-  border: 1px solid #474848;
+  background-color: #435061;
+  border: 1px solid #435061;
   color: #fff;
   padding: 9px;
   border-radius: 3px; }
@@ -300,7 +303,7 @@ nav {
   margin: 0 auto;
   padding: 30px 0 0 0; }
   .event-section span {
-    color: #4CAA90; }
+    color: #29af8a; }
 
 .event-container {
   width: 80%;
@@ -314,7 +317,7 @@ nav {
 
 .event-container > h3 {
   font-size: 0.8em;
-  background: #edf1f1;
+  background: #f1f4f8;
   width: 143px;
   text-align: center;
   padding: 6px;
@@ -350,7 +353,7 @@ nav {
     margin-right: 10px;
     font-size: 14px; }
   .large-event-img p {
-    background-color: #474848;
+    background-color: #435061;
     max-width: 100%;
     color: #fff;
     margin: 0;
@@ -393,7 +396,7 @@ nav {
   font-size: 0.4em; }
   .sm-event-info h1 {
     max-width: 100%;
-    background-color: #ddd7d4;
+    background-color: #f1f4f8;
     color: #fff;
     padding: 6px;
     text-align: center; }
@@ -404,14 +407,14 @@ nav {
   width: 75%;
   height: 100%;
   margin: 0 auto;
-  background-color: #4CAA90;
+  background-color: #29af8a;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 68px 0 0 0;
   height: 450px; }
   .testimonials h3 {
-    background-color: #474848;
+    background-color: #435061;
     font-size: 0.8em;
     width: 143px;
     text-align: center;
@@ -437,10 +440,10 @@ nav {
   text-align: center;
   padding: 6px; }
   .review i {
-    color: #4CAA90;
+    color: #29af8a;
     font-size: 24px; }
   .review p {
-    color: #474848;
+    color: #435061;
     padding-left: 10px;
     padding-right: 10px; }
 
@@ -463,12 +466,12 @@ nav {
   color: #fff; }
 
 .rvr-company {
-  color: #474848; }
+  color: #435061; }
 
 .volunteer {
   width: 75%;
   height: 75vh;
-  background: url("../images/volunteer.png");
+  background: url("../images/woman-educate.jpg");
   background-size: cover;
   margin: 0 auto;
   padding: 0;
@@ -490,7 +493,7 @@ nav {
     text-align: center;
     padding: 0 10px; }
   .volunteer-info h2 {
-    background-color: #474848;
+    background-color: #435061;
     font-size: 0.9em;
     border: 1px;
     border-radius: 5px;
@@ -500,8 +503,8 @@ nav {
   .volunteer-info h1 {
     margin: 0; }
   .volunteer-info button {
-    background-color: #4CAA90;
-    border: #4CAA90;
+    background-color: #29af8a;
+    border: #29af8a;
     border-radius: 3px;
     color: #fff;
     padding: 10px 15px;
@@ -513,7 +516,7 @@ nav {
   align-items: center;
   width: 75%;
   height: 114px;
-  background-color: #a5a8a8;
+  background-color: #a4b3c5;
   margin: 0 auto; }
 
 .news-form {
@@ -522,7 +525,7 @@ nav {
   align-items: center;
   font-size: 0.7em;
   margin: 0 auto;
-  color: #474848; }
+  color: #435061; }
   .news-form div {
     width: 34%;
     margin-right: 20px; }
@@ -542,9 +545,9 @@ nav {
     height: 35px;
     font-size: 1.1em;
     padding: 10px;
-    background-color: #474848;
+    background-color: #435061;
     color: #fff !important;
-    border: #474848;
+    border: #435061;
     border-radius: 2px;
     cursor: pointer; }
 
@@ -552,7 +555,7 @@ footer {
   width: 75%;
   min-height: 356px;
   margin: 0 auto;
-  background-color: #474848;
+  background-color: #435061;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -563,10 +566,10 @@ footer {
   footer h3 {
     color: #fff; }
   footer p {
-    color: #ddd7d4; }
+    color: #91a1b4; }
   footer button {
     color: #fff;
-    border: 1px solid #ddd7d4;
+    border: 1px solid #91a1b4;
     border-radius: 2px;
     background-color: transparent;
     padding: 10px 30px;

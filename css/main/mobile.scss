@@ -50,14 +50,22 @@ $white: #fff;
 		width: 83%;
 		display: block;
 	}
-	.land-sec-info h3 {
-		width: 124px;
-	}
-	.land-sec-info p {
+	.land-sec-info {
+		padding-top: 0;
+		height: 80vh;
+		div {
+			margin-left: 24px;
+		}
+		p {
 		width: 72%;
 		font-size: 0.9em;
+		}	
+		h3 {
+		width: 124px;
+		}
 	}
 	.land-footer {
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		height: 313px;
@@ -180,6 +188,9 @@ $white: #fff;
   }
   .review {
   	font-size: 0.5em;
+  	p {
+  		height: 114px;
+  	}
   }
   .volunteer-info {
     width: 261px;

@@ -1,11 +1,11 @@
-$green:  #4CAA90;
+$green: #29af8a;
 $lightgreen: #b7ddd2;
 $white: #fff;
 // $darkgray: #A49F9F;
-$darkgray: #474848;
-$medgray: #a5a8a8;
-$gray: #ddd7d4;
-$lightgray: #edf1f1;
+$darkgray: #435061;
+$medgray: #a4b3c5;
+$gray: #91a1b4;
+$lightgray: #f1f4f8;
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 body {
@@ -137,17 +137,20 @@ nav {
 .land-sec {
 	background-image: url('../images/school.jpeg');
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .land-sec-info {
 	width: 75%;
-	height: 100%;
+	height: 100vh;
 	margin: 0 auto;
-	padding-top: 133px;
+	padding-top: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -167,7 +170,6 @@ nav {
 		border: 1px solid $green;
 		width: 110px;
 		padding: 10px;
-		margin-bottom: 100px;
 	}
 	p {
 		width: 60%;
@@ -187,7 +189,7 @@ nav {
 }
 
 .land-footer {
-	width: 100%;
+	width: 75%;
 	height: 125px;
 	background-color: $darkgray;
 	display: inline-flex;
@@ -234,6 +236,7 @@ nav {
 
 .cause-section {
 	width: 75%;
+	height: 100%;
 	margin: 0 auto;
 	background-color: $white;
 	font-size: 0.75em;
@@ -326,13 +329,13 @@ nav {
 // PROJECT SECTION
 
 .prj-section {
-	background: linear-gradient(rgba(87,83,82, 0.9), 
-      rgba(87,83,82, 0.9)), url('../images/nepal.png');
+	background: linear-gradient(rgba(67,80,97, 0.8), 
+      rgba(67,80,97, 0.8)), url('../images/nepal.png');
 	background-size: cover;
-	height: 80vh;
+	height: 100%;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 80px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -486,7 +489,7 @@ nav {
 	font-size: 0.4em;
 	h1 {
 		max-width: 100%;
-    background-color: #ddd7d4;
+    background-color: $lightgray;
     color: #fff;
     padding: 6px;
     text-align: center;
@@ -578,7 +581,7 @@ nav {
 .volunteer {
 	width: 75%;
 	height: 75vh;
-	background: url('../images/volunteer.png');
+	background: url('../images/woman-educate.jpg');
 	background-size: cover;
 	margin: 0 auto;
 	padding: 0;

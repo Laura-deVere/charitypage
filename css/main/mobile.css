@@ -44,14 +44,19 @@
     width: 83%;
     display: block; }
 
-  .land-sec-info h3 {
-    width: 124px; }
-
-  .land-sec-info p {
-    width: 72%;
-    font-size: 0.9em; }
+  .land-sec-info {
+    padding-top: 0;
+    height: 80vh; }
+    .land-sec-info div {
+      margin-left: 24px; }
+    .land-sec-info p {
+      width: 72%;
+      font-size: 0.9em; }
+    .land-sec-info h3 {
+      width: 124px; }
 
   .land-footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     height: 313px; }
@@ -168,6 +173,8 @@
 
   .review {
     font-size: 0.5em; }
+    .review p {
+      height: 114px; }
 
   .volunteer-info {
     width: 261px;
