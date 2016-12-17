@@ -8,9 +8,14 @@
   footer {
     width: 100%; }
 
-  .land-footer div p {
-    font-size: 8px;
-    width: 74%; }
+  .land-sec-info div {
+    margin-left: 108px; }
+
+  .land-footer {
+    width: 100%; }
+    .land-footer div p {
+      font-size: 8px;
+      width: 74%; }
 
   .cause-section h2 {
     width: 11%; }
