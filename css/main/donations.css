@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+body {
+  background-color: #fff; }
+
+.nav-h {
+  height: 200px; }
+
+.donations-header {
+  background-image: url("../images/childz.jpg");
+  background-size: cover;
+  width: 75%;
+  margin: 0 auto;
+  height: 300px; }
+
+.donations {
+  width: 75%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 40px;
+  border-top: 1px solid #a4b3c5; }
+  .donations label {
+    display: block;
+    margin-bottom: 12px; }
+  .donations button, .donations div {
+    padding: 10px 15px;
+    font-weight: bold !important;
+    font-size: 1em;
+    color: #29af8a;
+    border: 1px solid #29af8a;
+    border-radius: 4px;
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 12px; }
+  .donations div {
+    width: 150px; }
+    .donations div input {
+      border: none;
+      height: 20px;
+      padding: 5px; }
+    .donations div span {
+      border-right: 1px solid #29af8a; }
+  .donations select {
+    cursor: pointer; }
+  .donations select, .donations input[type="color" i][list] {
+    border: 1px solid #29af8a;
+    height: 44px;
+    font-size: 0.8em;
+    background-color: #fff;
+    margin-bottom: 12px; }
+
+/*# sourceMappingURL=donations.css.map */

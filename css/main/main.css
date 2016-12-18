@@ -41,6 +41,9 @@ nav {
     list-style: none;
     margin-bottom: 0;
     margin-top: 0; }
+    .top-nav > ul a {
+      text-decoration: none;
+      color: #b7ddd2; }
   .top-nav li {
     padding: 14px 10px; }
   .top-nav li:hover {
@@ -72,14 +75,22 @@ nav {
     color: #29af8a; }
 
 .donate-btn {
-  border: 2px solid #29af8a;
-  color: #29af8a;
+  border: 1px solid #29af8a;
   width: 100px;
   height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; }
+  cursor: pointer;
+  border-radius: 5px; }
+  .donate-btn:hover {
+    background-color: #29af8a;
+    color: #fff; }
+  .donate-btn a {
+    text-decoration: none;
+    color: #29af8a; }
+  .donate-btn a:hover {
+    color: #fff; }
 
 .logo {
   width: 30%; }

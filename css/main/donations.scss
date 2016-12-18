@@ -1,0 +1,70 @@
+$green: #29af8a;
+$lightgreen: #b7ddd2;
+$white: #fff;
+// $darkgray: #A49F9F;
+$darkgray: #435061;
+$medgray: #a4b3c5;
+$gray: #91a1b4;
+$lightgray: #f1f4f8;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	background-color: $white;
+}
+
+.nav-h {
+	height: 200px;
+}
+
+.donations-header {
+	background-image: url('../images/childz.jpg');
+	background-size: cover;
+	width: 75%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.donations {
+	width: 75%;
+	height: 100%;
+	margin: 50px auto;
+	padding: 40px;
+	border-top: 1px solid $medgray;
+	label {
+		display: block;
+		margin-bottom: 12px; 
+	}
+	button, div {
+		padding: 10px 15px;
+    font-weight: bold !important;
+    font-size: 1em;
+    color: $green;
+    border: 1px solid $green;
+    border-radius: 4px;
+    background-color: $white;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 12px
+	}
+	div {
+		width: 150px;
+		input {
+			border: none;
+			height: 20px;
+			padding: 5px;
+		}
+		span {
+			border-right: 1px solid $green; 
+		}
+	}
+	select {
+		cursor: pointer;
+	}
+	select, input[type="color" i][list] {
+		border: 1px solid $green;
+		height: 44px;
+    font-size: 0.8em;
+    background-color: $white;
+    margin-bottom: 12px
+	}
+}

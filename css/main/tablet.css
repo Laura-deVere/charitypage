@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) and (min-width: 415px) {
+@media screen and (max-width: 768px) and (min-width: 569px) {
   .land-sec-info,
   .cause-section,
   .event-section,
@@ -8,15 +8,26 @@
   footer {
     width: 100%; }
 
-  .land-footer div p {
-    font-size: 8px;
-    width: 74%; }
+  .land-sec-info div {
+    margin-left: 108px; }
+
+  .land-footer {
+    width: 100%; }
+    .land-footer div p {
+      font-size: 8px;
+      width: 74%; }
 
   .cause-section h2 {
     width: 11%; }
 
+  .proj-section h2 {
+    width: 48%;
+    font-size: 1.3em; }
+  .proj-section p {
+    width: 65%; }
+
   .volunteer {
-    height: 31vh; }
+    height: 100%; }
 
   .news-form input {
     width: 155px; } }
