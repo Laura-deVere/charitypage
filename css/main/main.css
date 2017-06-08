@@ -41,7 +41,7 @@ nav {
     list-style: none;
     margin-bottom: 0;
     margin-top: 0; }
-    .top-nav > ul a {
+    .top-nav > ul a, .top-nav > ul a:visited {
       text-decoration: none;
       color: #b7ddd2; }
   .top-nav li {
@@ -86,7 +86,7 @@ nav {
   .donate-btn:hover {
     background-color: #29af8a;
     color: #fff; }
-  .donate-btn a {
+  .donate-btn a, .donate-btn a:visited {
     text-decoration: none;
     color: #29af8a; }
   .donate-btn a:hover {
